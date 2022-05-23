@@ -1,0 +1,20 @@
+<div class="mainDiv">
+  <div class="cardStyle">
+   <form method = "post" action = "/edit/<%= session[:user_id]%>">
+      
+      <img src="" id="signupLogo"/>
+      
+      <h2 class="formTitle"> you can change your password here </h2>
+      <input id='hidden' name='_method' type='hidden' value='patch'> 
+
+    <div class="inputDiv">
+      <label class="inputLabel" for="password">New Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+      
+    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="submit">Save password</button></div>
+    </div>
+      
+  </form>
+  </div>
+</div>
