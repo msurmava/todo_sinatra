@@ -63,4 +63,7 @@ class UserController < ApplicationController
     redirect to '/about'
   end
   
+
+
+
 end
